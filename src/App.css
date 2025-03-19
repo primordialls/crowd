@@ -1,8 +1,10 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
 }
 
 .logo {
@@ -39,4 +41,26 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.choiceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 80%;
+}
+
+.choice {
+  height: 30%;
+  width: 50%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.testImage {
+  height: 50%;
+  margin-top: 5%;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
