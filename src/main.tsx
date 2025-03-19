@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { initializeApp } from "firebase/app";
-import { initializeApp } from "firebase/app";
 import './index.css'
 import App from './App.tsx'
 
