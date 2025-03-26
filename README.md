@@ -2,4 +2,4 @@
 
 Built with love!
 
-![Demo GIF](200w.gif)
+![Demo GIF](public/200w.gif)
